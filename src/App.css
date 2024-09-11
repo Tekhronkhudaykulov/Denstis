@@ -1,0 +1,28 @@
+.container-site {
+  width: 1250px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.bg-header {
+  background-image: url("./assets/img.jpg");
+  height: 800px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-size: cover;
+}
+
+.bg-child-picture {
+  background-image: url("https://dantist-plus.ru/sites/default/files/picture/articles/pediatric-dentistry.jpg");
+  height: 800px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-size: cover;
+  margin-top: 50px;
+}
+
+html {
+  scroll-behavior: smooth; /* For smooth scrolling in modern browsers */
+}
