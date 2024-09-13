@@ -88,16 +88,21 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="bg-header" data-aos="fade-up" data-aos-duration="800">
-        <div className="container mx-auto">
-          <div className="flex items-start justify-center flex-col md:h-[100vh] container-devie">
-            <p className=" md:w-[500px] w-[200px] md:text-[60px] text-[30px] font-bold ">
+      <section
+        className="bg-header relative"
+        data-aos="fade-up"
+        data-aos-duration="800"
+      >
+        <div className="absolute inset-0 bg-black opacity-[0.4] "></div>
+        <div className="container mx-auto z-[9999] pt-[10px] ">
+          <div className="flex items-start justify-center z-[9999] relative flex-col md:min-h-[100vh] container-devie">
+            <p className="md:w-[500px] text-white w-[250px] md:text-[60px] text-[30px] font-bold ">
               Круглосуточная стоматология в Ташкенте | 24/7
             </p>
-            <p className=" md:text-[35px] text-[20px] font-bold">
+            <p className=" md:text-[35px] text-white text-[20px] font-bold">
               Детская и взрослая стоматология
             </p>
-            <p className="text-[20px] md:block hidden w-[1000px] leading-[30px]">
+            <p className="text-[20px] text-white md:block hidden w-[1000px] mt-[20px] leading-[30px]">
               Детская стоматология — это отрасль медицины, которая
               специализируется на поддержании здоровья зубов и полости рта у
               детей, включая специализированные подходы к стоматологической
@@ -105,14 +110,16 @@ function App() {
               зубы) более хрупкие, чем зубы взрослого, их эмаль тоньше и кариес
               может развиться быстрее.
             </p>
-            <div className="md:flex items-center justify-between w-full">
+            <div className="md:flex items-center justify-between w-full mt-[20px]">
               <div className="flex items-center md:gap-x-[10px] gap-x-[5px] md:mt-[10px] mt-[20px] md:text-[20px] text-[16px] w-max md:h-[60px] h-[50px] bg-[green] md:px-[35px] px-[10px]  md:py-[20px] py-[10px] text-white rounded-[12px]">
                 <IoIosCall fontSize={20} />
                 <a href="tel:+998937197771">Позвонить +998 93 719 77 71</a>
               </div>
               <div className="md:mt-0 mt-[20px]">
-                <p className="font-bold">Юнусобод район 13-квартал 4- дом</p>
-                <p className="font-bold">
+                <p className="font-bold text-white">
+                  Адрес: Юнусабадский район 13-квартал 4-дом
+                </p>
+                <p className="font-bold text-white">
                   Ориентир, 📌( Мегапланет), 📍Ринок (Ахмад донищ )
                 </p>
               </div>
@@ -148,12 +155,14 @@ function App() {
         </div>
       </section>
       <section
-        className="bg-child-picture"
+        className="bg-child-picture relative"
         data-aos="fade-zoom-in"
         data-aos-easing="ease-in-back"
         data-aos-delay="300"
         data-aos-offset="0"
-      ></section>
+      >
+        <div className="absolute inset-0 bg-black opacity-50"></div>
+      </section>
       <Advantes />
       <section
         className="container mx-[auto] pt-[20px]"
