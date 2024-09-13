@@ -88,7 +88,6 @@ function App() {
           </div>
         </div>
       </section>
-
       <section className="bg-header" data-aos="fade-up" data-aos-duration="800">
         <div className="container mx-auto">
           <div className="flex items-start justify-center flex-col md:h-[100vh] container-devie">
@@ -126,9 +125,6 @@ function App() {
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.3698882896806!2d69.29658607610308!3d41.36604777130268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef33574c36057%3A0x730c93d3a75fd166!2sYunusabad%2013%20Kvartal!5e0!3m2!1sen!2s!4v1726169199578!5m2!1sen!2s"
           width="100%"
           height="500"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </section>
       <section
@@ -151,7 +147,6 @@ function App() {
           ))}
         </div>
       </section>
-
       <section
         className="bg-child-picture"
         data-aos="fade-zoom-in"
@@ -160,7 +155,6 @@ function App() {
         data-aos-offset="0"
       ></section>
       <Advantes />
-
       <section
         className="container mx-[auto] pt-[20px]"
         data-aos="fade-up"
@@ -169,7 +163,6 @@ function App() {
       >
         <Form />
       </section>
-
       <section>
         <Reviews />
       </section>
