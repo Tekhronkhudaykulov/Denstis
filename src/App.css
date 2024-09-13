@@ -5,7 +5,7 @@
 }
 
 .bg-header {
-  background-image: url("./assets/img.jpg");
+  background-image: url("https://smiledesign.uz/wp-content/uploads/2023/12/detskaya-stomatalogiya.jpg");
   height: 800px;
   width: 100%;
   background-repeat: no-repeat;
@@ -14,7 +14,7 @@
 }
 
 .bg-child-picture {
-  background-image: url("https://dantist-plus.ru/sites/default/files/picture/articles/pediatric-dentistry.jpg");
+  background-image: url("https://astra33.ru/assets/images/poduslugi_/5/1.png");
   height: 800px;
   width: 100%;
   background-repeat: no-repeat;
@@ -25,4 +25,33 @@
 
 html {
   scroll-behavior: smooth; /* For smooth scrolling in modern browsers */
+}
+
+@media (max-width: 600px) {
+  .bg-header {
+    height: 400px;
+  }
+  .container-devie {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .bg-child-picture {
+    height: 250px;
+    background-size: contain;
+  }
+}
+
+/* Planshetlar uchun (o'rta ekranlar) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .bg-header {
+    height: 500px;
+  }
+  .bg-child-picture {
+    height: 350px;
+    background-size: contain;
+  }
+  .container-devie {
+    width: 90%;
+    margin: 0 auto;
+  }
 }

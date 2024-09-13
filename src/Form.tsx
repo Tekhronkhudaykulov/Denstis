@@ -59,7 +59,7 @@ const Form = () => {
           <div className="text-center">
             <button
               type="submit"
-              className="bg-blue-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-600 transition duration-300"
+              className="bg-[green] text-white font-bold py-3 px-6 rounded-lg hover:bg-[green] transition duration-300"
             >
               Отправить заявку
             </button>

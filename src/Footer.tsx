@@ -34,20 +34,20 @@ const Footer = () => {
             <h1 className="text-2xl font-bold">DentalCare</h1>
           </div>
 
-          <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6">
-            <a href="#service" className="hover:text-gray-300">
+          <div className=" md:flex hidden flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6">
+            <a href="#service" className="hover:text-gray-300 text-[20px]">
               Услуги
             </a>
-            <a href="#advantes" className="hover:text-gray-300">
+            <a href="#advantes" className="hover:text-gray-300 text-[20px]">
               Преимущества
             </a>
-            <a href="#form" className="hover:text-gray-300">
+            <a href="#form" className="hover:text-gray-300 text-[20px]">
               Подать заявку
             </a>
           </div>
-          <div className="flex items-center gap-x-[10px] bg-[#1a73e8] px-[20px] py-[15px] text-white rounded-[12px]">
+          <div className="flex items-center gap-x-[10px] bg-[green] px-[20px] py-[15px] text-white rounded-[12px]">
             <IoIosCall fontSize={20} />
-            <a href="tel:+998937197771">+998 93 719 77 71</a>
+            <a href="tel:+998937197771">Позвонить +998 93 719 77 71</a>
           </div>
         </div>
 

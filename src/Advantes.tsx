@@ -7,7 +7,7 @@ const Advantes = () => {
       data-aos-anchor-placement="top-center"
     >
       <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-4xl font-bold text-gray-800 mb-8">
+        <h2 className="text-3xl font-bold text-gray-800 mb-8">
           Наши Преимущества
         </h2>
         <p className="text-gray-600 text-lg mb-12">
